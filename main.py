@@ -71,7 +71,7 @@ def organize(input_dir, output_dir):
 
     with click.progressbar(files, label="Organizing photos",
                            fill_char=click.style('#', fg='green'),
-                           item_show_func=lambda item: item) as progress_files:
+                           item_show_func=show_filename) as progress_files:
         for f in progress_files:
             try:
                 src = '{}/{}'.format(input_dir, f)
