@@ -5,5 +5,7 @@ If your photos are a mess and you don't want to use any photo synchronization ap
 
 # Usage
 
+```
 $ pip install git+https://github.com/vladi-dev/py-organize-photos.git
 $ organize-photos --input-dir=~/photos --output-dir=~/photos-organized
+```
